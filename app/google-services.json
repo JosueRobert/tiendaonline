@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494683473868",
+    "project_id": "parcial3progra",
+    "storage_bucket": "parcial3progra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494683473868:android:755293ab2fcc415cf87f69",
+        "android_client_info": {
+          "package_name": "com.ugb.controlesbasicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBghcMlbG9kCb9kOTT38uUI37ucPrgKkuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

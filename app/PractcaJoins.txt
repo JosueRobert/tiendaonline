@@ -1,0 +1,71 @@
+create database basea1
+go
+
+use basea1
+go
+
+create table carro (
+id int,
+marca varchar (25),
+modelo  varchar (25),
+anio  varchar (25),
+fabricante  varchar (25),
+origen  varchar (30),
+)
+go
+
+insert into carro 
+values (1,'Toyota', 'Corolla','2000',1,''),
+(2,'Nissan', 'Snetra','2001',2,''),
+(3,'Honda', 'Civic','2010',3,''),
+(4,'Mitsubishi', 'Outlander','2020','',''),
+(5,'Kia', 'Soul','2020',5,''),
+(6,'Toyota', 'Hilux','2024',1,''),
+(7,'BMW', 'X7','2019',6,''),
+(8,'Scion', 'XA','2018',7,''),
+(9,'Nissan', 'GTR','2020','','')
+go
+
+
+create table fabricante
+(
+id int,
+nombre  varchar (30),
+fundacion date,
+pais  varchar (25),
+)
+go
+
+insert into fabricante
+values (1,'TOYODA','1940','Japon'),
+(2,'NISSAN','1940','Japon'),
+(3,'HONDA','1940','Japon'),
+(4,'MITSUBISHI','1940','Japon'),
+(5,'KIA','1940','Korea'),
+(6,'BMW','1940','Alemania'),
+(7,'TOYODA','1940','Japon'),
+(8,'DODGE','1940','USA'),
+(9,'GMC','1940','USA'),
+(10,'FORD','1940','USA')
+go
+
+
+create table detalle
+(
+id int,
+tipo  varchar (25),
+traccion  varchar (25),
+puertas  varchar (25),
+combustible  varchar (25)
+)
+go
+
+insert into detalle
+values (1,'Sedan','Delantera','4','Gasolina'),
+(2,'4x4','4 Ruedas','4','Gasolina'),
+(3,'Pickup','Trasera','4','Diesel'),
+(4,'Microbus','Trasera','3','Gasolina'),
+(5,'SUV','Delantera','5','Gasolina'),
+(6,'Hatchback','Delantera','2','Gasolina')
+go
+
